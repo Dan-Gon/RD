@@ -1,0 +1,31 @@
+.header-container{
+    top: 0;
+    position: fixed;
+    min-height: 8vh;
+    width: 100%;
+    background-color: black;
+}
+.header-container nav{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-links{
+    padding: 1%;
+}
+.nav-links h1{
+    color: white;
+}
+.links{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 1.3rem;
+    color: palegoldenrod;
+
+}
+.links:hover{
+    background-color: #61dafb;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
