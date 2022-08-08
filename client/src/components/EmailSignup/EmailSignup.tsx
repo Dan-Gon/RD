@@ -47,8 +47,8 @@ const EmailSignup = () => {
             {errorMessage()}
             {successMessage()}
         </div>
-            <h1 style={{display: submitted? 'none' : ''}}>Sign Up For our Newsletter</h1>
-            <form className={'form-content'} onSubmit={handleSubmit}>
+            <h1 style={{marginBottom: "10px", display: submitted? 'none' : ''}}>Sign Up For our Newsletter</h1>
+            <form className={'form-content'} onSubmit={handleSubmit} style={{display: submitted? 'none': ''}}>
                 <label>Name</label>
                 <input type="text" onChange={handleName} value={name}/>
 
