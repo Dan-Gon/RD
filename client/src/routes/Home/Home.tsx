@@ -1,15 +1,18 @@
 import Header from "../../components/Header/Header";
 import './Home.css'
 import Typewriter from "../../components/Typewriter/Typewriter";
-import {useEffect, useState} from "react";
+import Footer from "../../components/Footer/Footer";
+import EmailSignup from "../../components/EmailSignup/EmailSignup";
 
 const Home = () => {
   return(
       <div>
       <Header/>
-      <section className={'home-body'}>
-          <Typewriter/>
-      </section>
+      <body className={'home-body'}>
+        <Typewriter/>
+        <EmailSignup/>
+      </body>
+          <Footer/>
       </div>
   )
 }
