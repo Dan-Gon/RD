@@ -1,21 +1,14 @@
 import Header from "../../components/Header/Header";
 import './Home.css'
+import Typewriter from "../../components/Typewriter/Typewriter";
 import {useEffect, useState} from "react";
 
 const Home = () => {
-    const [data, setData] = useState(null)
-    useEffect(()=>{
-        fetch("/api")
-            .then((res)=>res.json())
-            .then((data)=> setData(data.message))
-    },[])
   return(
       <div>
-        <Header/>
+      <Header/>
       <section className={'home-body'}>
-      </section>
-      <section className={'section2'}>
-        <h1>{data}</h1>
+          <Typewriter/>
       </section>
       </div>
   )

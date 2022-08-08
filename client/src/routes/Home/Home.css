@@ -1,6 +1,9 @@
 .home-body{
     background-color: rebeccapurple;
     height: 110vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .section2{
     height: 110vh;
