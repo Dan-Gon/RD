@@ -1,0 +1,22 @@
+.about-body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-text-container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: 70%;
+}
+.about-text-container h1{
+    font-size: 6rem;
+    text-decoration: underline;
+    margin-bottom: 2%;
+}
+.about-text-container p{
+    font-size: 3rem;
+}
