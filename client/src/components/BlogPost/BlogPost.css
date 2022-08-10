@@ -1,0 +1,16 @@
+.blog-post-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blog-post-container h1{
+    font-size: 5rem;
+}
+.blog-post-container p{
+    font-size: 2rem;
+}
+.blog-post-container img{
+    height: 200px;
+    width: 200px;
+}

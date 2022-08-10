@@ -16,8 +16,8 @@
 
 }
 .person-image{
-    height: auto;
-    width: auto;
+    height: 270px;
+    width: 300px;
 }
 .person-text{
     display: flex;
