@@ -1,6 +1,6 @@
 .footer-container{
-    position: absolute;
     bottom: 0;
     margin-left: 1%;
     margin-bottom: 0.5%;
+    margin-top: auto;
 }

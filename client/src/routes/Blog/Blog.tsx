@@ -10,6 +10,11 @@ const Blog = () => {
       <div>
           <Header/>
           <body className={'blog-body'}>
+            <BlogPost title={"How to heal"} blogImage={Dan} bodyText={"Hi"}/>
+            <BlogPost title={"Trauma"} blogImage={Dan} bodyText={"Hi"}/>
+            <BlogPost title={"Meditation"} blogImage={Dan} bodyText={"Hi"}/>
+            <BlogPost title={"Greets"} blogImage={Dan} bodyText={"Hi"}/>
+            <BlogPost title={"Greets"} blogImage={Dan} bodyText={"Hi"}/>
             <BlogPost title={"Greets"} blogImage={Dan} bodyText={"Hi"}/>
           </body>
           <Footer/>
